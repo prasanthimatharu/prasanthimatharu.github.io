@@ -25,11 +25,11 @@ if ('querySelector' in document &&
 
 			// change attributes and text if full text is shown/hidden
 			if (!fullTextWrapper.hasAttribute('hidden')) {
-				toggleButtonText.innerText = 'Show More';
+				toggleButtonText.innerText = 'Read More';
 				fullTextWrapper.setAttribute('hidden', true);
 				toggleButton.setAttribute('aria-expanded', false);
 			} else {
-				toggleButtonText.innerText = 'Show Less';
+				toggleButtonText.innerText = 'Read less';
 				fullTextWrapper.removeAttribute('hidden');
 				toggleButton.setAttribute('aria-expanded', true);
 			}
