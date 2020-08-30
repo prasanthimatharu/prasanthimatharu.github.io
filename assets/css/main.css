@@ -1925,6 +1925,7 @@ input, select, textarea {
 
 			#header h1 a {
 				border: 0;
+				line-height: 2;
 			}
 
 		#header p {
@@ -1935,7 +1936,6 @@ input, select, textarea {
 			font-size: 0.85em;
 			letter-spacing: 3px;
 			text-align: center;
-			line-height: 2;
 		}
 
 /* Nav */
